@@ -1,0 +1,26 @@
+# adding git
+
+git init
+
+# adding files to git
+
+git add . # . adds the current directory
+
+# commiting (saving) changes
+
+git commit -m "some message"
+
+# GITHUB CLI commands
+
+# login to github
+gh auth login
+
+# create a repo from CLI
+gh repo create
+
+
+# add remote to your local git repository
+git remote add origin https://github.com/iynbi/repo_name
+
+# push the changes to github
+git push --set-upstream origin main
